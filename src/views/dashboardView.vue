@@ -17,7 +17,7 @@
       </section>
 
       <!-- Right Section with Image Stack -->
-            </section>
+       
       <section class="flex justify-start md:justify-center lg:justify-end xl:justify-end text-center w-full lg:w-1/2 xl:w-1/2  border border-gray-200 my-5 rounded order-first lg:order-none xl:order-none">
         <img src="../assets/image3.jpg" alt="" class="mx-auto md:mx-0 lg:mx-0 xl:mx-0"
           style="height:400px; width: 400px;" />
@@ -25,37 +25,3 @@
     </div>
   </main>
 </template>
-
-<script setup>
-import { ref, computed } from 'vue';
-
-const images = [
-  '../assets/423422645_725834796002665_956416286433382767_n-removebg-preview.png',
-  '/src/assets/image2.jpg',
-  '/src/assets/image4.jpg'
-];
-
-const currentIndex = ref(0);
-
-const currentImageUrl = computed(() => {
-  return images[currentIndex.value];
-});
-
-const nextImage = () => {
-  currentIndex.value = (currentIndex.value + 1) % images.length;
-};
-
-const prevImage = () => {
-  currentIndex.value = (currentIndex.value - 1 + images.length) % images.length;
-};
-</script>
-
-<style scoped>
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.5s;
-}
-
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-}
-</style>
