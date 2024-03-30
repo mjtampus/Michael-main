@@ -28,13 +28,13 @@
             </div>
           </div>
           <div class="relative overflow-hidden rounded-xl bg-purple-200 border border-purple-300 dark:border-gray-800 dark:bg-gray-900 hover:shadow-xl transition duration-300">
-            <img src="@/assets/project4.png" alt="Web Application" class="w-full h-full object-cover transition duration-300 transform-gpu hover:scale-105">
+            <img src="@/assets/Project4.png" alt="Web Application" class="w-full h-full object-cover transition duration-300 transform-gpu hover:scale-105">
             <div class="absolute inset-0 flex items-center justify-center opacity-0 bg-purple-300 bg-opacity-70 transition-opacity duration-300 hover:opacity-100">
               <p class="text-black text-center font-serif"> I've implemented a Laravel module management system, streamlining the organization <br>and integration of various modules within projects, enhancing efficiency and scalability.</p>
             </div>
           </div>
           <div class="relative overflow-hidden rounded-xl bg-purple-200 border border-purple-300 dark:border-gray-800 dark:bg-gray-900 hover:shadow-xl transition duration-300">
-            <img src="@/assets/project5.png" alt="Web Application" class="w-full h-full object-cover transition duration-300 transform-gpu hover:scale-105">
+            <img src="@/assets/Project5.png" alt="Web Application" class="w-full h-full object-cover transition duration-300 transform-gpu hover:scale-105">
             <div class="absolute inset-0 flex items-center justify-center opacity-0 bg-purple-300 bg-opacity-70 transition-opacity duration-300 hover:opacity-100">
               <p class="text-black text-center font-serif"> I've developed a Laravel-based rental management system, empowering businesses <br> to efficiently manage rental <br>operations, streamline bookings, and optimize resource allocation.</p>
             </div>
