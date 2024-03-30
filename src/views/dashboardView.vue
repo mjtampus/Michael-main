@@ -39,7 +39,7 @@
 import { ref, computed } from 'vue';
 
 const images = [
-  '/src/assets/image5.jpg',
+  '@/assets/project3.png',
   '/src/assets/image2.jpg',
   '/src/assets/image4.jpg'
 ];
