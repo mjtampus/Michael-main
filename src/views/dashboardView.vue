@@ -17,19 +17,10 @@
       </section>
 
       <!-- Right Section with Image Stack -->
-      <section class="flex justify-center md:justify-center lg:justify-end xl:justify-end text-center w-full lg:w-1/2 xl:w-1/2 border border-gray-200 my-5 rounded order-first lg:order-none xl:order-none lg:ml-6 xl:ml-6">
-        <div class="relative w-80 lg:w-full xl:w-full">
-          <!-- Image Stack -->
-          <transition name="fade" mode="out-in">
-            <img :key="currentIndex" :src="currentImageUrl" :alt="'Image ' + (currentIndex + 1)" class="w-full object-cover rounded-lg shadow-lg">
-          </transition>
-
-          <!-- Navigation Buttons -->
-          <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-4">
-            <button @click="prevImage" class="px-3 py-1 text-white bg-gray-800 rounded">Prev</button>
-            <button @click="nextImage" class="px-3 py-1 text-white bg-gray-800 rounded">Next</button>
-          </div>
-        </div>
+            </section>
+      <section class="flex justify-start md:justify-center lg:justify-end xl:justify-end text-center w-full lg:w-1/2 xl:w-1/2  border border-gray-200 my-5 rounded order-first lg:order-none xl:order-none">
+        <img src="../assets/image3.jpg" alt="" class="mx-auto md:mx-0 lg:mx-0 xl:mx-0"
+          style="height:400px; width: 400px;" />
       </section>
     </div>
   </main>
