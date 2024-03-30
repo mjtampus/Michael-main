@@ -39,7 +39,7 @@
 import { ref, computed } from 'vue';
 
 const images = [
-  '@/assets/project3.png',
+  '../assets/423422645_725834796002665_956416286433382767_n-removebg-preview.png',
   '/src/assets/image2.jpg',
   '/src/assets/image4.jpg'
 ];
