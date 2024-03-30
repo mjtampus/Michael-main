@@ -20,12 +20,7 @@
               <p class="text-black text-center font-serif">Designed a visually stunning website <br>with modern aesthetics, enhancing user engagement and brand perception.</p>
             </div>
           </div>
-          <div class="relative overflow-hidden rounded-xl bg-purple-200 border border-purple-300 dark:border-gray-800 dark:bg-gray-900 hover:shadow-xl transition duration-300">
-            <img src="./assets/Project2.png" alt="Web Application" class="w-full h-full object-cover transition duration-300 transform-gpu hover:scale-105">
-            <div class="absolute inset-0 flex items-center justify-center opacity-0 bg-purple-300 bg-opacity-70 transition-opacity duration-300 hover:opacity-100">
-              <p class="text-black text-center font-serif"> Developed a real-time chat system, <br>facilitating seamless communication and collaboration among users.</p>
-            </div>
-          </div>
+
           <div class="relative overflow-hidden rounded-xl bg-purple-200 border border-purple-300 dark:border-gray-800 dark:bg-gray-900 hover:shadow-xl transition duration-300">
             <img src="./assets/Project3.png" alt="Web Application" class="w-full h-full object-cover transition duration-300 transform-gpu hover:scale-105">
             <div class="absolute inset-0 flex items-center justify-center opacity-0 bg-purple-300 bg-opacity-70 transition-opacity duration-300 hover:opacity-100">
