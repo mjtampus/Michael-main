@@ -18,9 +18,10 @@
 
       <!-- Right Section with Image Stack -->
        
-      <section class="flex justify-start md:justify-center lg:justify-end xl:justify-end text-center w-full lg:w-1/2 xl:w-1/2  border border-gray-200 my-5 rounded order-first lg:order-none xl:order-none">
-        <img src="../assets/image3.jpg" alt="" class="mx-auto md:mx-0 lg:mx-0 xl:mx-0"
-          style="height:400px; width: 400px;" />
+       <section class="flex justify-center md:justify-center lg:justify-end xl:justify-end text-center w-full lg:w-1/2 xl:w-1/2 border border-gray-200 my-5 rounded order-first lg:order-none xl:order-none lg:ml-6 xl:ml-6">
+         <div class="relative w-80 lg:w-full xl:w-full">
+<img src="../assets/image3.jpg" alt=""class="w-full object-cover rounded-lg shadow-lg"/>
+</div>
       </section>
     </div>
   </main>
