@@ -39,9 +39,9 @@
 import { ref, computed } from 'vue';
 
 const images = [
-  '/src/views/assets/Image5.jpg',
-  '/src/views/assets/image2.jpg',
-  '/src/views/assets/image4.jpg'
+  '@/assets/image5.jpg',
+  '@/assets/image2.jpg',
+  '@/assets/image4.jpg'
 ];
 
 const currentIndex = ref(0);
