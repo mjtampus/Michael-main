@@ -4,7 +4,7 @@
     <div class="py-16">
       <div class="mx-auto px-6 max-w-6xl text-gray-500">
         <div class="text-center">
-          <h2 class="text-3xl text-gray-950 dark:text-white font-semibold">My Projects</h2>
+          <h2 class="text-3xl text-gray-950 dark:text-black font-semibold">My Projects</h2>
           <p class="mt-6 text-gray-700 dark:text-gray-300">This is my Following Projects</p>
         </div>
         <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
